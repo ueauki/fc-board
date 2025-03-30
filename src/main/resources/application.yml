@@ -1,9 +1,14 @@
 spring:
   datasource:
-      url: jdbc:mysql://localhost:3306/board?useSSL=false&serviceTimezone=Asia/Seoul
-#      url: jdbc:h2:mem:Test
-      username: root
-      password: 1234
+#      url: jdbc:mysql://localhost:3306/board?useSSL=false&serviceTimezone=Asia/Seoul
+##      url: jdbc:h2:mem:Test
+#      username: root
+#      password: 1234
+
+      url: jdbc:mysql://awseb-e-qk8imwijhj-stack-awsebrdsdatabase-zkushyhcbza6.c9wqooqso7ui.ap-northeast-2.rds.amazonaws.com?useSSL=false&serviceTimezone=Asia/Seoul
+      #      url: jdbc:h2:mem:Test
+      username: fastcam
+      password: fastcamp
       driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
       hibernate:
